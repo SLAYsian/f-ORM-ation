@@ -23,12 +23,12 @@
 #### Install all npm packages<br/>
 #### From your MySql shell, run the db/schema.sql file <br/>
 #### Run npm start from the terminal to sync the Sequelize models to MySQL database<br/>
-#### Using Insomnia, send GET routes at `localhost:3001/api/categories` to VIEW ALL CATEGORIES, `localhost:3001/api/tags` to VIEW ALL TAGS, `localhost:3001/api/products` to VIEW ALL PRODUCTS.<br/><br/>![view all products](./images/.png)<br/>
-#### To view a specific category, tag or product, add /`id` of the specific item you'd like to view at the end of the URL of the GET route. Example: `localhost:3001/api/products/3`<br/><br/>![view product](./images/.png)
-#### Create POST route to CREATE a category, tag or product, sending the data in JSON format.<br/><br/>![create product](./images/.png)<br/><br/>
-#### Create PUT route to UPDATE a category, tag or product, adding the desired /`id` at the end of the url request. Example: `localhost:3001/api/products/6` Sending the updated data in JSON format.<br/><br/>![update product](./images/.png)<br/><br/>
+#### Using Insomnia, send GET routes at `localhost:3001/api/categories` to VIEW ALL CATEGORIES, `localhost:3001/api/tags` to VIEW ALL TAGS, `localhost:3001/api/products` to VIEW ALL PRODUCTS.<br/><br/>![view all products](./images/get-all-products.png)<br/>
+#### To view a specific category, tag or product, add /`id` of the specific item you'd like to view at the end of the URL of the GET route. Example: `localhost:3001/api/products/3`<br/><br/>![view product](./images/view-one-product.png)
+#### Create POST route to CREATE a category, tag or product, sending the data in JSON format.<br/><br/>![create product](./images/create-product.png)<br/><br/>
+#### Create PUT route to UPDATE a category, tag or product, adding the desired /`id` at the end of the url request. Example: `localhost:3001/api/products/6` Sending the updated data in JSON format.<br/><br/>![update product](./images/update-product.png)<br/><br/>
 
-#### Create DELETE route to DELETE a category, tag or product, adding the desired /`id` at the end of the url request. Example: `localhost:3001/api/products/6`.<br/><br/>![delete product](./images/.png)<br/><br/>
+#### Create DELETE route to DELETE a category, tag or product, adding the desired /`id` at the end of the url request. Example: `localhost:3001/api/products/6`.<br/><br/>![delete product](./images/delete-product.png)<br/><br/>
 
 
 > ## REFERENCES
@@ -36,7 +36,7 @@
 - UDEMY Dr Angela Yu (https://appbrewery.com/)
 - UDEMY Colt Steele - The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert (https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)
 - W3Schools (https://www.w3schools.com/)
-- UConn Coding Bootcamp - Module 13 SQL Lessons
+- UConn Coding Bootcamp - Module 13 ORM Lessons
 
 > ## LICENSE
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)<br/>
