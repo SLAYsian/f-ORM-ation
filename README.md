@@ -20,6 +20,10 @@
 
 > ## USAGE
 
+
+https://github.com/SLAYsian/f-ORM-ation/assets/127693250/50cfda80-663b-4927-9a4f-9bf477cfe43d
+
+
 #### Install all npm packages<br/>
 #### From your MySql shell, run the db/schema.sql file <br/>
 #### Run npm start from the terminal to sync the Sequelize models to MySQL database<br/>
